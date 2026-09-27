@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VivaShield AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>🛡️ VivaShield AI</h1>
+
+        <p>
+            AI-powered emergency safety assistant
+        </p>
+
+        <span>
+            Get quick safety guidance during emergency situations.
+        </span>
+    </header>
+
+
+    <main class="container">
+
+        <section class="emergency-section">
+
+            <h2>Emergency Assistance</h2>
+
+            <p class="section-description">
+                Select the type of emergency you are facing.
+            </p>
+
+
+            <div class="emergency-buttons">
+
+                <button
+                    class="emergency-btn medical"
+                    data-category="Medical Emergency">
+                    🏥 Medical Emergency
+                </button>
+
+
+                <button
+                    class="emergency-btn fire"
+                    data-category="Fire Emergency">
+                    🔥 Fire Emergency
+                </button>
+
+
+                <button
+                    class="emergency-btn accident"
+                    data-category="Accident">
+                    🚗 Accident
+                </button>
+
+
+                <button
+                    class="emergency-btn personal"
+                    data-category="Personal Safety">
+                    🛡️ Personal Safety
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="chat-section">
+
+            <h2>VivaShield AI</h2>
+
+            <p class="ai-intro">
+                Hello! I am VivaShield AI.
+                Tell me what emergency situation you are facing,
+                and I will provide safety guidance.
+            </p>
+
+
+            <div id="response" class="response-box">
+                <p>
+                    Your AI safety guidance will appear here.
+                </p>
+            </div>
+
+
+            <div class="input-area">
+
+                <textarea
+                    id="userInput"
+                    rows="5"
+                    placeholder="Describe your emergency situation...">
+                </textarea>
+
+
+                <button id="sendButton">
+                    Send
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            ⚠️ VivaShield AI provides general safety guidance.
+            In a real emergency, contact your local emergency services.
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

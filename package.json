@@ -1,0 +1,14 @@
+{
+  "name": "vivashield-ai",
+  "version": "1.0.0",
+  "description": "AI-powered emergency safety assistant using Google Gemini API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
